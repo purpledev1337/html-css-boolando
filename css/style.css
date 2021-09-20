@@ -17,12 +17,34 @@
     float: left;
     position: relative;
     /* debug */
-    background-color: red;
+    /* background-color: red; */
 }
 
-/* product img */
+/* img */
 .product-img {
+    position: relative;
+}
+
+.product-img img {
     width: 100%;
+}
+
+/* discounts and sustainability */
+.prod
+
+.product-discount {
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.product-sustain {
+    background-color: green;
+    color: white;
+    padding: 5px;
 }
 
 /* product info */
