@@ -54,8 +54,12 @@
     display: block;
 }
 
+.price-promo {
+    color: red;
+}
+
 .price-stand {
-    text-decoration: line-through
+    text-decoration: line-through;
 }
 
 /* product heart and discounts */
