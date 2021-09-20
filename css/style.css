@@ -7,7 +7,7 @@
 /* container */
 .container {
     width: 80%;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 /* product box */
@@ -15,14 +15,26 @@
     width: calc(100% / 3 - 20px);
     margin: 10px;
     float: left;
+    /* debug */
     background-color: red;
 }
 
+/* product img */
 .product-img {
     width: 100%;
 }
 
+/* product info */
 .product-brand {
     display: block;
 }
 
+.price-stand {
+    text-decoration: line-through
+}
+
+/* product heart and discounts */
+.product-heart {
+    font-size: 30px;
+    background-color: white;
+}
