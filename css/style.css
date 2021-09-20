@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
 /* container */
 .container {
     width: 80%;
@@ -13,7 +18,7 @@
 /* product box */
 .product {
     width: calc(100% / 3 - 20px);
-    margin: 10px;
+    margin: 10px 10px 30px 10px;
     float: left;
     position: relative;
     /* debug */
@@ -64,6 +69,11 @@
     display: block;
 }
 
+.product-name {
+    font-variant-caps: all-small-caps;
+    margin-top: -5px;
+}
+
 .price-promo {
     color: red;
 }
@@ -75,7 +85,10 @@
 /* product heart and discounts */
 .product-heart {
     font-size: 30px;
-    padding: 10px 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
     background-color: white;
     position: absolute;
     right: 0;
