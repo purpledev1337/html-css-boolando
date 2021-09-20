@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* container */
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* product box */
+.product {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    float: left;
+    background-color: red;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-brand {
+    display: block;
+}
+
