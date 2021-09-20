@@ -21,8 +21,6 @@ body {
     margin: 10px 10px 30px 10px;
     float: left;
     position: relative;
-    /* debug */
-    /* background-color: red; */
 }
 
 /* img */
@@ -82,7 +80,7 @@ body {
     text-decoration: line-through;
 }
 
-/* product heart and discounts */
+/* product heart */
 .product-heart {
     font-size: 30px;
     width: 50px;
