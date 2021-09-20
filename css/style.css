@@ -29,6 +29,16 @@
     width: 100%;
 }
 
+.img-hover {
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.product:hover .img-hover {
+    display: inline-block;
+}
+
 /* discounts and sustainability */
 .product-addons {
     position: absolute;
