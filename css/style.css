@@ -30,15 +30,17 @@
 }
 
 /* discounts and sustainability */
-.prod
+.product-addons {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
 
 .product-discount {
     background-color: red;
     color: white;
-    position: absolute;
-    left: 0;
-    bottom: 20px;
     padding: 5px;
+    margin-right: 5px;
 }
 
 .product-sustain {
