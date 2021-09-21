@@ -15,6 +15,12 @@ body {
     margin: 15px auto;
 }
 
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* product box */
 .product {
     width: calc(100% / 3 - 20px);
